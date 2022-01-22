@@ -31,7 +31,7 @@ public class Point  {
 	 */
 	public void setX(int x) {
 		if (x < 0) 
-		      throw new ArithmeticException("Le nombre n'est pas positif"); 
+		      throw new IllegalArgumentException("X n'est pas positif"); 
 		
 		else {
 	        	this.x = x;    	
@@ -56,7 +56,7 @@ public class Point  {
 	 */
 	public void setY(int y) {
 		if (y < 0) 
-		      throw new ArithmeticException("Le nombre n'est pas positif"); 
+		      throw new IllegalArgumentException("Y n'est pas positif"); 
 		
 		else this.y = y;    	
 	        	

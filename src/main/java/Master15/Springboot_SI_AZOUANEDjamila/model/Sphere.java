@@ -18,6 +18,10 @@ public class Sphere extends Cercle {
 		super();
 	}
 	
+	public Sphere(Point origine, int diametre) {
+		super(origine, diametre);
+	}
+
 	/**
 	  * @return sSph la superficie du sphere
 	  * sSph= 4 × π × R2
